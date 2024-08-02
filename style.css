@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-image: url('https://pbs.twimg.com/media/Fth-XmMXwBYrdcF?format=jpg&name=small');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-header img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.ingresa-cuenta {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    z-index: 10;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-control {
+    padding-right: 30px; /* Asegura que el texto no se superponga con el ícono */
+}
+
+.iHdVbkVQvFXkuwc {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#link-olvidaste-tu-password {
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #005a9e;
+}
+
+#bottom-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img-block {
+    flex: 1;
+    text-align: center;
+}
+
+.img-block img {
+    max-width: 80px;
+    height: auto;
+}
+
+#vl {
+    width: 1px;
+    height: 30px;
+    background-color: #ddd;
+    margin: 0 15px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.login-footer, .login-footer-responsive {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-footer-responsive img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+    body {
+        padding: 10px;
+    }
+
+    .login-container {
+        max-width: 100%;
+    }
+
+    .wrapper {
+        padding: 15px;
+    }
+
+    .form-control {
+        font-size: 16px;
+    }
+}

